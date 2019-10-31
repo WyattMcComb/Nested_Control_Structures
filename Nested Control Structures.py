@@ -15,10 +15,16 @@ for i in range(3):
 print(\n***************\n)
 
 '''
-Programmer: Wyatt McCXomb
+Programmer: Wyatt McComb
 Date 10/22/19
 Program: For Loop + While Loop
 
 This program will ask users of an internet to them then ask for two items related to that interest
 '''
 
+for i in range(4):
+    print('Outer For Loop: ' + str(i))
+    x = 1
+    while x >= 0:
+        print('    While Loop: ' + str(x))
+        x = x - 1
